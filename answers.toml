@@ -16,7 +16,7 @@ level_3_answer = "accountant"
 level_3_security_key = "TON"
 
 # Level 4
-level_4_answer = "coordinator"
+level_4_answer = "coordinates"
 level_4_security_key = "DBMS"
 
 # Level 5
@@ -27,3 +27,4 @@ level_5_security_key = "larry page and sergey brin"
 level_6_answer = "Canteen"
 
 level_6_security_key = "console.log()"
+
