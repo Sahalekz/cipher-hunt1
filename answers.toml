@@ -1,0 +1,28 @@
+# FOSS Treasure Hunt Answers
+# This file contains only the answers to secure them separately from the main code
+
+[questions]
+
+# Level 1
+level_1_answer = "Lift"
+level_1_security_key = "ID"
+
+# Level 2
+level_2_answer = "name board"
+level_2_security_key = "TCP/IP"
+
+# Level 3
+level_3_answer = "accountant"
+level_3_security_key = "TON"
+
+# Level 4
+level_4_answer = "coordinator"
+level_4_security_key = "DBMS"
+
+# Level 5
+level_5_answer = "Drainpipes"
+level_5_security_key = "larry page and sergey brin"
+
+# Level 6
+level_6_answer = "Canteen"
+level_6_security_key = "console.log()"
