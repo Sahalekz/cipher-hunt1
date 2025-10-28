@@ -955,8 +955,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_1_answer"],
         "security_riddle": "My heart is full of life",
         "security_key": answers["level_1_security_key"],
-        "hint": "💡 Think of something that moves up and down.",
-        "security_hint": "💡 It's a form of identification.",
+        "hint": "",
+        "security_hint": "",
         "category": "Riddles",
         "difficulty": "easy",
         "points": 10
@@ -966,8 +966,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_2_answer"],
         "security_riddle": "The secret lies where I don't display",
         "security_key": answers["level_2_security_key"],
-        "hint": "💡 Hint: reverse",
-        "security_hint": "💡 Think of networking protocols.",
+        "hint": "",
+        "security_hint": "",
         "category": "Riddles",
         "difficulty": "medium",
         "points": 15
@@ -977,8 +977,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_3_answer"],
         "security_riddle": "Go and ask him",
         "security_key": answers["level_3_security_key"],
-        "hint": "💡 Think of someone in an academic setting.",
-        "security_hint": "💡 It's an acronym for a measurement unit.",
+        "hint": "",
+        "security_hint": "",
         "category": "Riddles",
         "difficulty": "medium",
         "points": 20
@@ -988,8 +988,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_4_answer"],
         "security_riddle": "I wear rings",
         "security_key": answers["level_4_security_key"],
-        "hint": "💡 Hint: 2 oo",
-        "security_hint": "💡 Think of database management systems.",
+        "hint": "",
+        "security_hint": "",
         "category": "Riddles",
         "difficulty": "hard",
         "points": 25
@@ -999,8 +999,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_5_answer"],
         "security_riddle": "I have a mouth but I don't have tongue",
         "security_key": answers["level_5_security_key"],
-        "hint": "💡 Think of architectural structures.",
-        "security_hint": "💡 Founders of a major tech company.",
+        "hint": "",
+        "security_hint": "",
         "category": "Riddles",
         "difficulty": "hard",
         "points": 30
@@ -1010,8 +1010,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_6_answer"],
         "security_riddle": "Between one spin and one swing",
         "security_key": answers["level_6_security_key"],
-        "hint": "💡 Think of places in a school or office.",
-        "security_hint": "💡 Related to JavaScript debugging.",
+        "hint": "",
+        "security_hint": "",
         "category": "Riddles",
         "difficulty": "expert",
         "points": 35
@@ -3580,4 +3580,5 @@ st.markdown("""
     <p style="font-size: 1rem;">Celebrating Open Source • Building Digital Freedom</p>
     <p style="font-size: 0.9rem; margin-top: 15px;">🔐 Elite Two-Phase Challenge System</p>
 </div>
+
 """, unsafe_allow_html=True)
