@@ -25,30 +25,30 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_1_answer"],
         "security_riddle": "My heart is full of life",
         "security_key": answers["level_1_security_key"],
-        "hint": "💡 Think of something that moves up and down.",
-        "security_hint": "💡 It's a form of identification.",
+        "hint": "No hints are available",
+        "security_hint": "No hints are available",
         "category": "Riddles",
         "difficulty": "easy",
         "points": 10
     },
     {
-        "question": "🔍 Level 2\n\nAn area that can't speak but it can convey the face of us. (3 words)",
+        "question": "🔍 Level 2\n\nAn area that can't speak but it can convey the face of us. (2 words)",
         "answer": answers["level_2_answer"],
         "security_riddle": "The secret lies where I don't display",
         "security_key": answers["level_2_security_key"],
-        "hint": "💡 Hint: reverse",
-        "security_hint": "💡 Think of networking protocols.",
+        "hint": "💡 Hint: First word starts with 'n' and second word starts with 'b' ",
+        "security_hint": "💡 Reverse.",
         "category": "Riddles",
         "difficulty": "medium",
         "points": 15
     },
     {
-        "question": "🔍 Level 3\n\nA man who is always surrounded by numbers. (2 words)",
+        "question": "🔍 Level 3\n\nA man who is always surrounded by numbers. (10 letters)",
         "answer": answers["level_3_answer"],
-        "security_riddle": "Go and ask him",
+        "security_riddle": "Go and ask him 'സാധനം കയ്യിലുണ്ടോ... ?? '",
         "security_key": answers["level_3_security_key"],
-        "hint": "💡 Think of someone in an academic setting.",
-        "security_hint": "💡 It's an acronym for a measurement unit.",
+        "hint": "No hints are available",
+        "security_hint": "No hints are available",
         "category": "Riddles",
         "difficulty": "medium",
         "points": 20
@@ -59,7 +59,7 @@ QUESTIONS: List[Dict] = [
         "security_riddle": "I wear rings",
         "security_key": answers["level_4_security_key"],
         "hint": "💡 Hint: 2 oo",
-        "security_hint": "💡 Think of database management systems.",
+        "security_hint": "💡 Reverse gid (leaf).",
         "category": "Riddles",
         "difficulty": "hard",
         "points": 25
@@ -69,8 +69,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_5_answer"],
         "security_riddle": "I have a mouth but I don't have tongue",
         "security_key": answers["level_5_security_key"],
-        "hint": "💡 Think of architectural structures.",
-        "security_hint": "💡 Founders of a major tech company.",
+        "hint": "💡 Starts with 'd' and ends with 's'.",
+        "security_hint": "No hints are available",
         "category": "Riddles",
         "difficulty": "hard",
         "points": 30
@@ -80,8 +80,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_6_answer"],
         "security_riddle": "Between one spin and one swing",
         "security_key": answers["level_6_security_key"],
-        "hint": "💡 Think of places in a school or office.",
-        "security_hint": "💡 Related to JavaScript debugging.",
+        "hint": "No hints are available.",
+        "security_hint": "No hints are available.",
         "category": "Riddles",
         "difficulty": "expert",
         "points": 35
@@ -3582,3 +3582,4 @@ st.markdown("""
 </div>
 
 """, unsafe_allow_html=True)
+
